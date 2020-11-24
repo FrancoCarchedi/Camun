@@ -5,37 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camun</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="sass/styles.css">
 </head>
 <body>
     <!--Header-->
     <div class="container-fluid">
         <div class="row header">
-            <div class="col d-flex justify-content-start align-self-center">
-                <h2 class="">
+            <div class="col-xl-5 col-sm-4 d-flex justify-content-xl-center d-flex justify-content-sm-start d-flex justify-content-center align-self-center">
+                <h1 class="">
                     Camun
-                </h2>
+                </h1>
             </div>
-            <div class="col align-self-center">
-                <div class="row">
-                    <div class="col d-flex justify-content-center">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                   
-                    
+            <div class="col-xl-7 col-sm-8 d-flex justify-content-sm-end d-flex justify-content-center align-self-center">
+                
+                    <div class="text-nowrap d-flex justify-content-center">
+                        <nav class="navbar navbar-expand-lg navbar-light">
                             <!-- enlaces -->
                             <div class="collapse navbar-collapse" id="opciones">   
-                              <ul class="navbar-nav">
+                              <ul class="navbar-nav text-nowrap">
                                 <li class="nav-item px-5">
-                                  <a class="nav-link" href="#">Inicio</a>
+                                  <a class="nav-link header__navitem-color header__navitem-size" href="#">
+                                    Inicio
+                                  </a>
                                 </li>
                                 <li class="nav-item px-5">
-                                  <a class="nav-link" href="#">Servicios</a>
+                                  <a class="nav-link header__navitem-color header__navitem-size" href="#">
+                                    Servicios
+                                  </a>
                                 </li>
                                 <li class="nav-item px-5">
-                                  <a class="nav-link" href="#">Quienes somos</a>
+                                  <a class="nav-link header__navitem-color header__navitem-size" href="#">
+                                    Quienes somos
+                                  </a>
                                 </li>
                                 <li class="nav-item px-5">
-                                  <a class="nav-link" href="#">Contacto</a>
+                                  <a class="nav-link header__navitem-color header__navitem-size" href="#">
+                                    Contacto
+                                  </a>
                                 </li>            
                               </ul>
                             </div>
@@ -49,15 +55,46 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid main">
         <div class="row">
+            <div class="col-lg-7 col-sm-12 main__introduction">
+              <h3 class="main__title d-flex justify-content-lg-center d-flex justify-content-sm-center">Soluciones maravillosas para tu negocio</h3>
+              <div class="d-flex justify-content-lg-center d-flex justify-content-sm-center">
+                <ul class="align-self-center main__list">
+                  <li class="main__listitem"><img src="img/iconos/vignette.svg" alt="viñeta" class="main_listvignette-size"><p class="main__listText-size">Creamos un sitio web totalmente personalizado para vos</p></li>
+
+                  <li class="main__listitem"><img src="img/iconos/vignette.svg" alt="viñeta" class="main_listvignette-size"><p class="main__listText-size">Desarrollamos software para ayudarte con los procesos en tu negocio</p></li>
+
+                  <li class="main__listitem"><img src="img/iconos/vignette.svg" alt="viñeta" class="main_listvignette-size"><p class="main__listText-size">Diseñamos un logo para tu marca</p></li>
+
+                  <li class="main__listitem"><img src="img/iconos/vignette.svg" alt="viñeta" class="main_listvignette-size"><p class="main__listText-size">Te brindamos todo el asesoramiento que necesites</p></li>
+                </ul>
+              </div>
+            </div>
             <div class="col">
-                
+
             </div>
         </div>
     </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!--Footer-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-5 col-sm-4 d-flex justify-content-xl-center d-flex justify-content-sm-center d-flex justify-content-center">
+          © 2020 Camun
+        </div>
+        <div class="col-xl-7 col-sm-8 d-flex justify-content-xl-end d-flex justify-content-sm-end d-flex justify-content-center footer__images">
+          <div class="">
+            <a href="https://www.facebook.com/" target="_blank" class="mx-2"><img src="img/iconos/facebook.svg" alt="facebook logo" class="footer__images-size"></a>
+          <a href="https://api.whatsapp.com/send?phone=541127044541" target="_blank" class="mx-2"><img src="img/iconos/whatsapp.svg" alt="whatsapp logo" class="footer__images-size"></a>
+          <a href="https://www.instagram.com/" target="_blank" class="mx-2"><img src="img/iconos/instagram.svg" alt="instagram logo" class="footer__images-size"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </body>
 </html>
