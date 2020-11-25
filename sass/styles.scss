@@ -3,6 +3,7 @@
 * {
   text-decoration: none;
   list-style: none;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -11,7 +12,6 @@
 
 .main {
   margin-top: 5rem;
-  height: 47rem;
 }
 
 .nav-link {
@@ -63,6 +63,11 @@
   width: 1rem;
 }
 
+.main__image {
+  width: 600px;
+  height: 350px;
+}
+
 @media only screen and (max-width: 768px) {
   .main__introduction {
     margin: auto;
@@ -84,4 +89,42 @@
   .main__list {
     padding-left: 0;
   }
+
+  .main__image {
+    width: 380px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main__introduction {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 1460px) {
+  .main__introduction {
+    margin-left: 0;
+  }
+
+  .main__image {
+    width: 380px;
+    height: 200px;
+  }
+}
+
+.img_clientes {
+  max-width: 100%;
+  height: auto;
+}
+
+.main__titleClients {
+  margin-top: 5rem;
+  font-size: 32px;
+  color: $text-pink;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: $background-lightgrey;
 }

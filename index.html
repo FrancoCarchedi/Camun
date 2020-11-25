@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camun</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sass/styles.css">
 </head>
 <body>
@@ -57,7 +59,7 @@
 
     <div class="container-fluid main">
         <div class="row">
-            <div class="col-lg-7 col-sm-12 main__introduction">
+            <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 main__introduction">
               <h3 class="main__title d-flex justify-content-lg-center d-flex justify-content-sm-center">Soluciones maravillosas para tu negocio</h3>
               <div class="d-flex justify-content-lg-center d-flex justify-content-sm-center">
                 <ul class="align-self-center main__list">
@@ -71,27 +73,59 @@
                 </ul>
               </div>
             </div>
-            <div class="col">
-
+            <div class="col-xl-4 col-lg-12 col-sm-12 d-flex justify-content-lg-center d-flex justify-content-xl-center d-flex justify-content-md-center d-flex justify-content-sm-center d-flex align-items-center">
+              <img src="img/presentation.jpg" alt="" class="main__image">
             </div>
         </div>
     </div>
 
-    <!--Footer-->
     <div class="container-fluid">
-      <div class="row">
+      <div class="row d-flex align-items-center">
+        <div class="col d-flex justify-content-center">
+          <h3 class="main__titleClients">Nuestros clientes</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-md">
+      <div class="row d-flex align-items-center">
+        <div class="col ">
+          <img src="img/clientes/coderhouse_logo.png" alt="" class="img_clientes">
+        </div>
+        <div class="col">
+          <img src="img/clientes/ba.png" alt="" class="img_clientes">
+        </div>
+        <div class="col">
+          <img src="img/clientes/adobe.png" alt="" class="img_clientes">
+        </div>
+        <div class="col">
+          <img src="img/clientes/compragamer.png" alt="" class="img_clientes">
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--Footer-->
+    <div class="container-fluid mt-5 footer">
+      <div class="row py-2">
         <div class="col-xl-5 col-sm-4 d-flex justify-content-xl-center d-flex justify-content-sm-center d-flex justify-content-center">
           © 2020 Camun
         </div>
         <div class="col-xl-7 col-sm-8 d-flex justify-content-xl-end d-flex justify-content-sm-end d-flex justify-content-center footer__images">
           <div class="">
-            <a href="https://www.facebook.com/" target="_blank" class="mx-2"><img src="img/iconos/facebook.svg" alt="facebook logo" class="footer__images-size"></a>
+          <a href="https://www.facebook.com/" target="_blank" class="mx-2"><img src="img/iconos/facebook.svg" alt="facebook logo" class="footer__images-size"></a>
           <a href="https://api.whatsapp.com/send?phone=541127044541" target="_blank" class="mx-2"><img src="img/iconos/whatsapp.svg" alt="whatsapp logo" class="footer__images-size"></a>
           <a href="https://www.instagram.com/" target="_blank" class="mx-2"><img src="img/iconos/instagram.svg" alt="instagram logo" class="footer__images-size"></a>
           </div>
         </div>
       </div>
     </div>
+
+
+    <script>
+      $('.carousel').carousel()
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
