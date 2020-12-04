@@ -4,6 +4,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-image: url("../img/background-test.png");
+}
+
 .header {
   height: 5rem;
 }
@@ -41,8 +45,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-bottom: 3rem;
 }
 
@@ -124,6 +128,5 @@
 }
 
 .footer {
-  background-color: #f6f4f4;
 }
 /*# sourceMappingURL=styles.css.map */
