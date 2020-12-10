@@ -110,6 +110,10 @@ body {
   font-weight: 500;
 }
 
+.content__cards-width {
+  width: 18rem !important;
+}
+
 .img_clientes {
   max-width: 100%;
   height: auto;
